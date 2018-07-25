@@ -89,7 +89,7 @@ type Adder struct {
 	mroot      *mfs.Root
 	unlocker   bstore.Unlocker
 	tempRoot   *cid.Cid
-	Prefix     *cid.Prefix
+	Prefix     cid.Builder
 	liveNodes  uint64
 }
 

@@ -958,7 +958,7 @@ Change the cid version or hash function of the root node of a given path.
 	},
 }
 
-func updatePath(rt *mfs.Root, pth string, prefix *cid.Prefix, flush bool) error {
+func updatePath(rt *mfs.Root, pth string, prefix cid.Builder, flush bool) error {
 	if prefix == nil {
 		return nil
 	}
@@ -1088,7 +1088,7 @@ Remove files or directories.
 	},
 }
 
-func getPrefixNew(req *cmds.Request) (*cid.Prefix, error) {
+func getPrefixNew(req *cmds.Request) (cid.Builder, error) {
 	cidVer, cidVerSet := req.Options["cid-version"].(int)
 	hashFunStr, hashFunSet := req.Options["hash"].(string)
 
@@ -1117,7 +1117,7 @@ func getPrefixNew(req *cmds.Request) (*cid.Prefix, error) {
 	return &prefix, nil
 }
 
-func getPrefix(req oldcmds.Request) (*cid.Prefix, error) {
+func getPrefix(req oldcmds.Request) (cid.Builder, error) {
 	cidVer, cidVerSet, _ := req.Option("cid-version").Int()
 	hashFunStr, hashFunSet, _ := req.Option("hash").String()
 
@@ -1146,7 +1146,7 @@ func getPrefix(req oldcmds.Request) (*cid.Prefix, error) {
 	return &prefix, nil
 }
 
-func getFileHandle(r *mfs.Root, path string, create bool, prefix *cid.Prefix) (*mfs.File, error) {
+func getFileHandle(r *mfs.Root, path string, create bool, prefix cid.Builder) (*mfs.File, error) {
 	target, err := mfs.Lookup(r, path)
 	switch err {
 	case nil:
