@@ -575,6 +575,12 @@
       "hash": "QmWdTRLi3H7ZJQ8s7NYo8oitz5JHEEPKLn1QPMsJVWg2Ew",
       "name": "go-unixfs",
       "version": "1.0.2"
+    },
+    {
+      "author": "magik6k",
+      "hash": "QmXEjYkYTXPNbzggMtueBgHKgz7Py94tvW8evhXUpJR3tz",
+      "name": "go-junit-report",
+      "version": "1.0.0"
     }
   ],
   "gxVersion": "0.10.0",
