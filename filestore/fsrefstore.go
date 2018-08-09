@@ -14,8 +14,8 @@ import (
 	posinfo "gx/ipfs/QmSHjPDw8yNgLZ7cBfX7w3Smn7PHwYhNEpd4LHQQxUg35L/go-ipfs-posinfo"
 	blocks "gx/ipfs/QmVzK524a2VWLqyvtBeiHKsUAWYgeAk4DBeZoY7vpNPNRx/go-block-format"
 	cid "gx/ipfs/QmYVNvtQkeZ6AKSwDrjQTs432QtL6umrrK41EBq3cu7iSP/go-cid"
-	proto "gx/ipfs/QmZHU2gx42NPTYXzw6pJkuX6xCE7bKECp6e8QcPdoLx8sx/protobuf/proto"
 	dshelp "gx/ipfs/Qmd8UZEDddMaCnQ1G5eSrUhN3coX19V7SyXNQGWnAvUsnT/go-ipfs-ds-help"
+	proto "gx/ipfs/QmdxUuburamoF6zF9qjeQC4WYcWGbWuRmdLacMEsW8ioD8/gogo-protobuf/proto"
 	ds "gx/ipfs/QmeiCcJfDW1GJnWUArudsv5rQsihpi4oyddPhdqo3CfX6i/go-datastore"
 	dsns "gx/ipfs/QmeiCcJfDW1GJnWUArudsv5rQsihpi4oyddPhdqo3CfX6i/go-datastore/namespace"
 	dsq "gx/ipfs/QmeiCcJfDW1GJnWUArudsv5rQsihpi4oyddPhdqo3CfX6i/go-datastore/query"
@@ -281,7 +281,7 @@ func (f *FileManager) putTo(b *posinfo.FilestoreNode, to putter) error {
 		if !f.AllowUrls {
 			return ErrUrlstoreNotEnabled
 		}
-		dobj.FilePath = proto.String(b.PosInfo.FullPath)
+		dobj.FilePath = b.PosInfo.FullPath
 	} else {
 		if !f.AllowFiles {
 			return ErrFilestoreNotEnabled
@@ -295,10 +295,10 @@ func (f *FileManager) putTo(b *posinfo.FilestoreNode, to putter) error {
 			return err
 		}
 
-		dobj.FilePath = proto.String(filepath.ToSlash(p))
+		dobj.FilePath = filepath.ToSlash(p)
 	}
-	dobj.Offset = proto.Uint64(b.PosInfo.Offset)
-	dobj.Size_ = proto.Uint64(uint64(len(b.RawData())))
+	dobj.Offset = b.PosInfo.Offset
+	dobj.Size_ = uint64(len(b.RawData()))
 
 	data, err := proto.Marshal(&dobj)
 	if err != nil {
