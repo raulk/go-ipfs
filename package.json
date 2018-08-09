@@ -241,18 +241,6 @@
       "version": "0.2.3"
     },
     {
-      "author": "whyrusleeping",
-      "hash": "QmfJHywXQu98UeZtGJBQrPAR6AtmDjjbe3qjTo9piXHPnx",
-      "name": "murmur3",
-      "version": "0.0.0"
-    },
-    {
-      "author": "whyrusleeping",
-      "hash": "QmVkii6Urke4akPoToq96XsFB8AuY81MzHKYE8DfJvDJq9",
-      "name": "go-libp2p-netutil",
-      "version": "0.4.5"
-    },
-    {
       "hash": "Qmb78zos2Et876AhvCemEkZQmmAmsDrNF62Ljh2mUpShAR",
       "name": "go-libp2p-kbucket",
       "version": "2.2.5"
@@ -304,12 +292,6 @@
       "hash": "QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv",
       "name": "multiaddr-filter",
       "version": "1.0.2"
-    },
-    {
-      "author": "whyrusleeping",
-      "hash": "QmZHU2gx42NPTYXzw6pJkuX6xCE7bKECp6e8QcPdoLx8sx",
-      "name": "protobuf",
-      "version": "3.6.0"
     },
     {
       "author": "whyrusleeping",
@@ -440,24 +422,6 @@
     },
     {
       "author": "hsanjuan",
-      "hash": "QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL",
-      "name": "go-ipfs-delay",
-      "version": "0.0.1"
-    },
-    {
-      "author": "hsanjuan",
-      "hash": "QmRMGdC6HKdLsPDABL9aXPDidrpmEHzJqFWSvshkbn9Hj8",
-      "name": "go-ipfs-flags",
-      "version": "0.0.1"
-    },
-    {
-      "author": "hsanjuan",
-      "hash": "QmZUbTDJ39JpvtFCSubiWeUTQRvMA1tVE5RZCJrY4oeAsC",
-      "name": "go-ipfs-pq",
-      "version": "0.0.1"
-    },
-    {
-      "author": "hsanjuan",
       "hash": "Qmd8UZEDddMaCnQ1G5eSrUhN3coX19V7SyXNQGWnAvUsnT",
       "name": "go-ipfs-ds-help",
       "version": "0.0.5"
@@ -473,12 +437,6 @@
       "hash": "QmRNFh4wm6FgTDrtsWmnvEP9NTuEa3Ykf72y1LXCyevbGW",
       "name": "go-ipfs-blockstore",
       "version": "0.0.14"
-    },
-    {
-      "author": "why",
-      "hash": "QmdbxjQWogRCHRaxhhGnYdT1oQJzL9GdqSKzCdqWr85AP2",
-      "name": "pubsub",
-      "version": "1.0.0"
     },
     {
       "author": "whyrusleeping",
@@ -506,21 +464,9 @@
     },
     {
       "author": "hsanjuan",
-      "hash": "QmYqPGpZ9Yemr55xus9DiEztkns6Jti5XJ7hC94JbvkdqZ",
-      "name": "go-ipfs-blocksutil",
-      "version": "0.0.3"
-    },
-    {
-      "author": "hsanjuan",
       "hash": "QmWURzU3XRY4wYBsu2LHukKKHp5skkYB1K357nzpbEvRY4",
       "name": "go-ipfs-exchange-offline",
       "version": "0.0.12"
-    },
-    {
-      "author": "Stebalien",
-      "hash": "QmTbBs3Y3u5F69XNJzdnnc6SP5GKgcXxCDzx6w8m6piVRT",
-      "name": "go-bitfield",
-      "version": "0.1.1"
     },
     {
       "author": "stebalien",
@@ -581,6 +527,12 @@
       "hash": "QmRwCaRYotCqXsVZAXwWhEJ8A74iAaKnY7MUe6sDgFjrE5",
       "name": "go-ipfs-config",
       "version": "0.2.2"
+    },
+    {
+      "author": "why",
+      "hash": "QmQwgv79RHrRnoXmhnpC1BPtY55HHeneGMpPwmmBU1fUAG",
+      "name": "go-verifcid",
+      "version": "0.0.1"
     }
   ],
   "gxVersion": "0.10.0",
