@@ -15,7 +15,7 @@ import (
 	cmds "gx/ipfs/QmSXUokcP4TJpFfqozT69AVAYRtzXVMUjzQVkYX41R9Svs/go-ipfs-cmds"
 	"gx/ipfs/QmTRhk7cgjUf2gfQ3p2M9KPECNZEW9XUrmHcFCgog4cPgB/go-libp2p-peer"
 	pstore "gx/ipfs/QmTTJcDL3gsnGDALjh2fDGg1onGRUdVgNL2hU2WEZcVrMX/go-libp2p-peerstore"
-	identify "gx/ipfs/QmUDTcnDp2WssbmiDLC6aYurUeyt7QeRakHUQMxA2mZ5iB/go-libp2p/p2p/protocol/identify"
+	identify "gx/ipfs/QmUAMDGeFJLmfXfjEfLvJTNBmV7d25Q1uAZPnSNTAKCEb2/go-libp2p/p2p/protocol/identify"
 	kb "gx/ipfs/QmUmemULEGWabBBZxczWCS3AF9g5jDFcxfMXw9iQkZ3EdD/go-libp2p-kbucket"
 	"gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
 )
