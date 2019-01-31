@@ -506,9 +506,9 @@
     },
     {
       "author": "why",
-      "hash": "QmT3rzed1ppXefourpmoZ7tyVQfsGPQZ1pHDngLmCvXxd3",
+      "hash": "QmfYAs7tYGfp3NAfxTefNY3gLqpnuBhvAD8vpxfXaTRQwV",
       "name": "go-path",
-      "version": "1.1.16"
+      "version": "1.1.17"
     },
     {
       "author": "why",
@@ -530,9 +530,9 @@
     },
     {
       "author": "hsanjuan",
-      "hash": "QmczEZJF4oUxb9S2h5qgr4U15C59CcfPYiwuJ5MyWuRc3C",
+      "hash": "Qmd5gW8ooz2SLscP7bzJrMstKjDrws2LMKWGr1VWgrHmCA",
       "name": "go-mfs",
-      "version": "0.1.19"
+      "version": "0.1.20"
     },
     {
       "author": "kevina",
