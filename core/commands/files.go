@@ -28,7 +28,7 @@ import (
 	dag "gx/ipfs/QmVRLFjtzUQpZBbG3P6Z4zoTDHYmJSEoBGEZa8Cvqywt3V/go-merkledag"
 	ft "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs"
 	logging "gx/ipfs/QmZChCsSt8DctjceaL56Eibc29CVQq4dGKRXC5JRZ6Ppae/go-log"
-	mfs "gx/ipfs/QmczEZJF4oUxb9S2h5qgr4U15C59CcfPYiwuJ5MyWuRc3C/go-mfs"
+	mfs "gx/ipfs/Qmd5gW8ooz2SLscP7bzJrMstKjDrws2LMKWGr1VWgrHmCA/go-mfs"
 	cmdkit "gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
 )
 

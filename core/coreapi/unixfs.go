@@ -21,7 +21,7 @@ import (
 	uio "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/io"
 	files "gx/ipfs/QmZMWMvWMVKCbHetJ4RgndbuEF1io2UpUxwQwtNjtYPzSC/go-ipfs-files"
 	bstore "gx/ipfs/QmcDDgAXDbpDUpadCJKLr49KYR4HuL7T8Z1dZTHt6ixsoR/go-ipfs-blockstore"
-	mfs "gx/ipfs/QmczEZJF4oUxb9S2h5qgr4U15C59CcfPYiwuJ5MyWuRc3C/go-mfs"
+	mfs "gx/ipfs/Qmd5gW8ooz2SLscP7bzJrMstKjDrws2LMKWGr1VWgrHmCA/go-mfs"
 )
 
 type UnixfsAPI CoreAPI
