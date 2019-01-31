@@ -12,9 +12,9 @@ import (
 
 	core "github.com/ipfs/go-ipfs/core"
 	path "gx/ipfs/QmT3rzed1ppXefourpmoZ7tyVQfsGPQZ1pHDngLmCvXxd3/go-path"
-	mdag "gx/ipfs/QmY95Kd4AJDiHKpPgbCrKX6LbHmt3oq41uQ7fF7PZncDnw/go-merkledag"
-	ft "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs"
-	uio "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs/io"
+	mdag "gx/ipfs/QmVRLFjtzUQpZBbG3P6Z4zoTDHYmJSEoBGEZa8Cvqywt3V/go-merkledag"
+	ft "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs"
+	uio "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/io"
 
 	ipld "gx/ipfs/QmR7TcHkR9nxkUorfi8XMTAMLUK7GiP64TWWBzY3aacc1o/go-ipld-format"
 	fuse "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse"

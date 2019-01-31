@@ -19,7 +19,7 @@ import (
 	cid "gx/ipfs/QmPSQnBKM9g7BaUcZCvswUJVscQ1ipjmwxN5PXCjkp9EQ7/go-cid"
 	ipld "gx/ipfs/QmR7TcHkR9nxkUorfi8XMTAMLUK7GiP64TWWBzY3aacc1o/go-ipld-format"
 	cmds "gx/ipfs/QmSXUokcP4TJpFfqozT69AVAYRtzXVMUjzQVkYX41R9Svs/go-ipfs-cmds"
-	dag "gx/ipfs/QmY95Kd4AJDiHKpPgbCrKX6LbHmt3oq41uQ7fF7PZncDnw/go-merkledag"
+	dag "gx/ipfs/QmVRLFjtzUQpZBbG3P6Z4zoTDHYmJSEoBGEZa8Cvqywt3V/go-merkledag"
 	cmdkit "gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
 )
 

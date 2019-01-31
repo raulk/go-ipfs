@@ -11,9 +11,9 @@ import (
 	e "github.com/ipfs/go-ipfs/core/commands/e"
 	iface "github.com/ipfs/go-ipfs/core/coreapi/interface"
 
-	merkledag "gx/ipfs/QmY95Kd4AJDiHKpPgbCrKX6LbHmt3oq41uQ7fF7PZncDnw/go-merkledag"
+	merkledag "gx/ipfs/QmVRLFjtzUQpZBbG3P6Z4zoTDHYmJSEoBGEZa8Cvqywt3V/go-merkledag"
+	unixfs "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs"
 	cmdkit "gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
-	unixfs "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs"
 )
 
 type LsLink struct {

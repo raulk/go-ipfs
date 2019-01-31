@@ -8,10 +8,10 @@ import (
 
 	core "github.com/ipfs/go-ipfs/core"
 	bserv "gx/ipfs/QmRkfFeKYsQ6Boa3nZsPbc66Z97ZBbUesbr2pwTZohkV6X/go-blockservice"
-	merkledag "gx/ipfs/QmY95Kd4AJDiHKpPgbCrKX6LbHmt3oq41uQ7fF7PZncDnw/go-merkledag"
-	ft "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs"
-	importer "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs/importer"
-	uio "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs/io"
+	merkledag "gx/ipfs/QmVRLFjtzUQpZBbG3P6Z4zoTDHYmJSEoBGEZa8Cvqywt3V/go-merkledag"
+	ft "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs"
+	importer "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/importer"
+	uio "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/io"
 
 	cid "gx/ipfs/QmPSQnBKM9g7BaUcZCvswUJVscQ1ipjmwxN5PXCjkp9EQ7/go-cid"
 	u "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"

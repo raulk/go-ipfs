@@ -18,15 +18,15 @@ import (
 	posinfo "gx/ipfs/QmQyUyYcpKG1u53V7N25qRTGw5XwaAxTMKXbduqHotQztg/go-ipfs-posinfo"
 	ipld "gx/ipfs/QmR7TcHkR9nxkUorfi8XMTAMLUK7GiP64TWWBzY3aacc1o/go-ipld-format"
 	chunker "gx/ipfs/QmTUTG9Jg9ZRA1EzTPGTDvnwfcfKhDMnqANnP9fe4rSjMR/go-ipfs-chunker"
-	mfs "gx/ipfs/QmUwXQs8aZ472DmXZ8uJNf7HJNKoMJQVa7RaCz7ujZ3ua9/go-mfs"
-	dag "gx/ipfs/QmY95Kd4AJDiHKpPgbCrKX6LbHmt3oq41uQ7fF7PZncDnw/go-merkledag"
+	dag "gx/ipfs/QmVRLFjtzUQpZBbG3P6Z4zoTDHYmJSEoBGEZa8Cvqywt3V/go-merkledag"
+	unixfs "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs"
+	balanced "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/importer/balanced"
+	ihelper "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/importer/helpers"
+	trickle "gx/ipfs/QmWL5BtPrLnHWvN9HCJ2TiJQPmUmHkx4aqAA8w4yzxRa8g/go-unixfs/importer/trickle"
+	mfs "gx/ipfs/QmYhYgRT9YkLqFxx1cmpJZ57ChrwRKPNvULAXPWRtFZEoV/go-mfs"
 	logging "gx/ipfs/QmZChCsSt8DctjceaL56Eibc29CVQq4dGKRXC5JRZ6Ppae/go-log"
 	files "gx/ipfs/QmZMWMvWMVKCbHetJ4RgndbuEF1io2UpUxwQwtNjtYPzSC/go-ipfs-files"
 	bstore "gx/ipfs/QmcDDgAXDbpDUpadCJKLr49KYR4HuL7T8Z1dZTHt6ixsoR/go-ipfs-blockstore"
-	unixfs "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs"
-	balanced "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs/importer/balanced"
-	ihelper "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs/importer/helpers"
-	trickle "gx/ipfs/QmfB3oNXGGq9S4B2a9YeCajoATms3Zw2VvDm8fK7VeLSV8/go-unixfs/importer/trickle"
 )
 
 var log = logging.Logger("coreunix")
