@@ -22,8 +22,8 @@ import (
 	fuse "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse"
 	fs "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse/fs"
 	peer "gx/ipfs/QmTRhk7cgjUf2gfQ3p2M9KPECNZEW9XUrmHcFCgog4cPgB/go-libp2p-peer"
-	mfs "gx/ipfs/QmYhYgRT9YkLqFxx1cmpJZ57ChrwRKPNvULAXPWRtFZEoV/go-mfs"
 	logging "gx/ipfs/QmZChCsSt8DctjceaL56Eibc29CVQq4dGKRXC5JRZ6Ppae/go-log"
+	mfs "gx/ipfs/QmczEZJF4oUxb9S2h5qgr4U15C59CcfPYiwuJ5MyWuRc3C/go-mfs"
 )
 
 func init() {
